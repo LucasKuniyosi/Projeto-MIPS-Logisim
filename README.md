@@ -21,8 +21,7 @@ Repositório destinado ao projeto prático da disciplina de Arquitetura de Compu
 
 ## 📽️ Vídeo Explicativo e Demonstração
 Assista à apresentação da proposta, explicação dos módulos e simulação prática:
-> 🔗 [**Clique aqui para assistir ao vídeo do projeto**](SUBSTITUA_PELO_LINK_DO_VIDEO)
-
+> 🔗 [[**https://www.youtube.com/watch?v=g5_fmjXyK4M**]
 ## 📄 Documentação Técnica
 A descrição detalhada de cada módulo, decisões de projeto e o diagrama de blocos podem ser encontrados na pasta [`/docs`](./docs).
 

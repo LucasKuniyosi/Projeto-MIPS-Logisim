@@ -21,5 +21,12 @@ Este documento detalha os componentes lógicos e estruturais da arquitetura dese
 ### 4. Multiplexadores de Decisão
 *   **MUX RegDst / ALUSrc / MemToReg:** Elementos que selecionam o caminho dos dados (destino de escrita, origem do operando da ULA e fonte do dado).
 
+### 5. Decisões de Projeto e Justificativas Técnicas
+*   **A arquitetura adotada segue o modelo single-cycle, inspirado em arquiteturas RISC, devido à sua simplicidade de implementação e adequação ao contexto acadêmico.
+*   **A execução das instruções em um único ciclo de clock foi escolhida por reduzir a complexidade do controle, evitando a necessidade de técnicas mais avançadas, como pipeline.
+*   **O uso de multiplexadores (MUX), como RegDst, ALUSrc e MemToReg, permite flexibilidade no caminho de dados, possibilitando o suporte a diferentes tipos de instrução sem aumento significativo de hardware.
+*   **A separação entre a Unidade de Controle e o Controle da ULA contribui para uma organização modular, facilitando o entendimento e futuras extensões.
+*   **O banco de registradores com duas portas de leitura e uma de escrita foi adotado para permitir acesso simultâneo aos operandos das instruções.
+*   **Por fim, a lógica de desvio (branch e jump) foi implementada de forma direta, utilizando a saída da ULA, garantindo decisões rápidas dentro do mesmo ciclo de execução.
 ---
 *Nota Técnica: Esta descrição garante a integridade do ciclo de busca, decodificação e execução conforme o planejamento do projeto.*

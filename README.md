@@ -15,9 +15,10 @@ Repositório destinado ao projeto prático da disciplina de Arquitetura de Compu
 
 ## 🛠️ Instruções de Execução
 1. Certifique-se de ter o **Logisim** instalado.
-2. Faça o download do arquivo `.circ` localizado na pasta [`/src`](./src).
-3. No Logisim, vá em `File -> Open` e selecione o arquivo.
-4. Para iniciar a simulação das instruções: Vá em `Simulate -> Ticks Enabled` (ou use Ctrl + K).
+2. Faça o download do arquivo `.circ` e do arquivo `media` localizado na pasta [`/src`](./src).
+3. No Logisim, vá em `File -> Open` e selecione o arquivo MIPS.circ.
+4. Com o circuito aberto, clique com o botão direito do mouse na memória ROM, selecione a opção carregar imagem, e importe o arquivo media localizado na pasta [`/src`](./src).
+5. Para iniciar a simulação das instruções: Vá em `Simulate -> Ticks Enabled` (ou use Ctrl + K).
 
 ## 📽️ Vídeo Explicativo e Demonstração
 Assista à apresentação da proposta, explicação dos módulos e simulação prática:
